@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bigoweb">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".resources.InitSP"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BigoWeb">
+        <activity
+            android:name=".Information"
+            android:exported="true"
+            android:label="@string/text_title_about"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".ConfigActivity"
+            android:exported="true"
+            android:label="@string/text_title_config"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".UserProfile"
+            android:exported="true"
+            android:label="@string/title_user_profile"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ActivityProfile"
+            android:exported="true"
+            android:label="@string/title_developer_profile"
+            android:parentActivityName=".BigoUsers" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BigoUsers"
+            android:exported="true"
+            android:label="@string/title_developer_team"
+            android:parentActivityName=".MainActivity" />
+    </application>
+
+</manifest>

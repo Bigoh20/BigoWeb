@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:viewBindingIgnore="true">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TIL_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:padding="@dimen/small_padding"
+        app:boxCornerRadiusTopStart="@dimen/default_radius"
+        app:boxCornerRadiusBottomEnd="@dimen/default_radius"
+        app:boxCornerRadiusTopEnd="@dimen/default_radius"
+        app:boxCornerRadiusBottomStart="@dimen/default_radius"
+        android:hint="@string/hint_text_register"
+        app:counterEnabled="true"
+        app:counterMaxLength="15"
+        app:startIconDrawable="@drawable/ic_person"
+        app:endIconMode="clear_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TIET_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="15"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <CheckBox
+        android:id="@+id/cbVIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_vip"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:layout_marginBottom="@dimen/default_margin"
+        style="@style/TextAppearance.MaterialComponents.Subtitle2"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>

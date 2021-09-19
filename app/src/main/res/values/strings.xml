@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Bigo web</string>
+    <string name="title">Official Developer Team</string>
+    <string name="fab_add_text">Add user</string>
+    <string name="hint_text_register">Username.</string>
+    <string name="title_dialog">Register</string>
+    <string name="key_boolean_firsttime">booleanfirsttime</string>
+    <string name="error_empty_text">The text is empty!</string>
+    <string name="key_username">username_key</string>
+    <string name="hint_text_adduser">Developer name</string>
+    <string name="hint_text_company">Developer comapny</string>
+    <string name="hint_text_URL">Developer photo (URL)</string>
+    <string name="help_text_name">Required*</string>
+    <string name="error_invalid_url">Invalid URL</string>
+    <string name="text_title_developer">Developer team</string>
+    <string name="text_title_profile">Profile</string>
+    <string name="text_title_config">Configuration</string>
+    <string name="text_title_about">About us</string>
+    <string name="title_developer_team">Developer team</string>
+    <string name="dev_name_key">username</string>
+    <string name="dev_company_key">company1</string>
+    <string name="dev_url_key">url1</string>
+    <string name="invited_user">invited user</string>
+    <string name="invalid_profile_text">Account is required</string>
+    <string name="success_register_text">User created successfully</string>
+    <string name="text_default_company">Unknow company</string>
+    <string name="key_company_user">companyUser</string>
+    <string name="key_url_user">urlUser</string>
+    <string name="hint_user_text_company">User company</string>
+    <string name="hint_user_text_URL">User photo (URL)</string>
+    <string name="checkbox_vip">I bought VIP</string>
+    <string name="key_is_vip">isVIP</string>
+    <string name="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omni</string>
+    <string name="dev_facebook_key">facebookkey</string>
+    <string name="dev_twitter_key">twitterkey</string>
+    <string name="dev_github_key">githubkey</string>
+    <string name="dev_description_key">descriptionkey</string>
+    <string name="title_developer_profile">Developer profile</string>
+    <string name="title_user_profile">My profile</string>
+    <string name="fab_add_basic_info">Add info</string>
+    <string name="fab_add_avanced_info">Add media</string>
+    <string name="unknown_text">unknown</string>
+    <string name="empty_description_text">"This user have no description. "</string>
+    <string name="hint_text_facebook">Facebook</string>
+    <string name="hint_text_twitter">Twitter</string>
+    <string name="hint_text_github">GitHub</string>
+    <string name="arroba_icon">\@</string>
+    <string name="hint_text_description">Description about you</string>
+    <string name="key_facebook_user">facebookkey</string>
+    <string name="key_twitter_user">twitterkey</string>
+    <string name="key_github_user">githubkey</string>
+    <string name="key_description_user">descriptionkey</string>
+    <string name="footer_text">Creada con el único propósito de poner en práctica los conocimientos adquiridos.</string>
+    <string name="text_success_save">The information was saved succesfully</string>
+    <string name="text_terms">"Collectick is not responsible for misuse of the product. All our projects are made with the objective of reinforcing the skills acquired during a self-taught education, so they are not distributed for now."</string>
+    <string name="text_privacy">Collectick is committed to respecting the privacy of our users. The information collected is for the purpose of identifying each user within the system and will not be used for publicity purposes, among others. Collectick does not force any user to give private information, but it is optional to add names, social networks, and other stuff to be honest.  </string>
+    <string name="youtube"><a href="https://www.youtube.com/channel/UCos3ZULfL125Ve048xM050A">Youtube Channel</a></string>
+    <string name="discord"><a href="https://discord.gg/ZvgyRhb3Jk">Discord server</a></string>
+
+</resources>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+
+        <TextView
+            android:id="@+id/textViewName"
+            style="@style/TextAppearance.MaterialComponents.Headline2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_padding"
+            android:gravity="center"
+            android:textSize="@dimen/big_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Welcome, Bigotes20." />
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/TextAppearance.MaterialComponents.Subtitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/text_title_developer"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/cardivew_go"
+            app:layout_constraintStart_toStartOf="@+id/cardivew_go"
+            app:layout_constraintTop_toBottomOf="@+id/cardivew_go" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardivew_go"
+            android:layout_width="140dp"
+            android:layout_height="125dp"
+            android:layout_marginStart="@dimen/big_margin"
+            android:layout_marginTop="76dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardCornerRadius="@dimen/default_radius"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewName">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/green"
+                android:src="@drawable/ic_group" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/tv_title2"
+            style="@style/TextAppearance.MaterialComponents.Subtitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/text_title_profile"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/cardivew_profile"
+            app:layout_constraintStart_toStartOf="@+id/cardivew_profile"
+            app:layout_constraintTop_toBottomOf="@+id/cardivew_profile" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardivew_profile"
+            android:layout_width="140dp"
+            android:layout_height="125dp"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="76dp"
+            android:layout_marginEnd="@dimen/big_margin"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardCornerRadius="@dimen/default_radius"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cardivew_go"
+            app:layout_constraintTop_toBottomOf="@+id/textViewName">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/green"
+                android:src="@drawable/ic_person" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardivew_config"
+            android:layout_width="140dp"
+            android:layout_height="125dp"
+            android:layout_marginTop="@dimen/big_margin"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardCornerRadius="@dimen/default_radius"
+            app:layout_constraintEnd_toEndOf="@+id/tv_title"
+            app:layout_constraintStart_toStartOf="@+id/tv_title"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/green"
+                android:src="@drawable/ic_config" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/tv_title3"
+            style="@style/TextAppearance.MaterialComponents.Subtitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_margin"
+            android:text="@string/text_title_config"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/cardivew_config"
+            app:layout_constraintStart_toStartOf="@+id/cardivew_config"
+            app:layout_constraintTop_toBottomOf="@+id/cardivew_config" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardivew_about"
+            android:layout_width="140dp"
+            android:layout_height="125dp"
+            android:layout_marginTop="@dimen/big_margin"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardCornerRadius="@dimen/default_radius"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.727"
+            app:layout_constraintStart_toEndOf="@+id/cardivew_config"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title2">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/green"
+                android:src="@drawable/ic_help" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/tv_title4"
+            style="@style/TextAppearance.MaterialComponents.Subtitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_margin"
+            android:text="@string/text_title_about"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/cardivew_about"
+            app:layout_constraintStart_toStartOf="@+id/cardivew_about"
+            app:layout_constraintTop_toBottomOf="@+id/cardivew_about" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</ScrollView>

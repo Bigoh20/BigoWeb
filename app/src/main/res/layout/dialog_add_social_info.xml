@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/parentLayout">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TIL_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:padding="@dimen/small_padding"
+        android:hint="@string/hint_text_facebook"
+        app:counterEnabled="true"
+        app:counterMaxLength="24"
+        app:startIconDrawable="@drawable/img_facebook_25px"
+        app:prefixText="@string/arroba_icon"
+        app:prefixTextColor="@color/purple_500"
+        app:endIconMode="clear_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TIET_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="24"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TIL_twitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:padding="@dimen/small_padding"
+        android:hint="@string/hint_text_twitter"
+        app:counterEnabled="true"
+        app:counterMaxLength="24"
+        app:startIconDrawable="@drawable/img_twitter_25px"
+        app:prefixText="@string/arroba_icon"
+        app:prefixTextColor="@color/purple_500"
+        app:endIconMode="clear_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TIET_twitter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="24"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TIL_github"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:padding="@dimen/small_padding"
+        android:hint="@string/hint_text_github"
+        app:startIconDrawable="@drawable/img_github_25px"
+        app:counterEnabled="true"
+        app:counterMaxLength="24"
+        app:prefixText="@string/arroba_icon"
+        app:prefixTextColor="@color/purple_500"
+        app:endIconMode="clear_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TIET_github"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textUri"
+            android:maxLength="24"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TIL_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:padding="@dimen/small_padding"
+        android:hint="@string/hint_text_description"
+        app:startIconDrawable="@drawable/ic_description"
+        app:endIconMode="clear_text"
+        app:counterEnabled="true"
+        app:counterMaxLength="250">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TIET_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textUri"
+            android:maxLength="250"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

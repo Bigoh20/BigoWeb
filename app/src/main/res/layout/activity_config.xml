@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfigActivity"
+    android:background="@color/mostas">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/small_margin"
+        android:backgroundTint="@color/purple_100"
+        app:cardCornerRadius="@dimen/default_radius"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/deleteSocialButton"
+                style="@style/TextAppearance.MaterialComponents.Headline5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/small_margin"
+                android:background="@color/background_card_view"
+                android:padding="@dimen/small_padding"
+                android:text="Delete personal data."
+                app:drawableEndCompat="@drawable/ic_arrow" />
+
+            <Button
+                android:id="@+id/deleteButton"
+                style="@style/TextAppearance.MaterialComponents.Headline5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/background_card_view"
+                android:padding="@dimen/small_padding"
+                android:text="Delete my account."
+                app:drawableEndCompat="@drawable/ic_arrow" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/background_card_view"
+                android:layout_margin="@dimen/default_margin"/>
+
+
+
+            <Button
+                android:id="@+id/rateButton"
+                style="@style/TextAppearance.MaterialComponents.Headline5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/small_margin"
+                android:background="@color/background_card_view"
+                android:padding="@dimen/small_padding"
+                android:text="Rate this app"
+                app:drawableEndCompat="@drawable/ic_arrow" />
+
+
+            <Button
+                android:id="@+id/termButton"
+                style="@style/TextAppearance.MaterialComponents.Headline5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/small_margin"
+                android:background="@color/background_card_view"
+                android:padding="@dimen/small_padding"
+                android:text="Terms of use"
+                app:drawableEndCompat="@drawable/ic_arrow" />
+
+            <Button
+                android:id="@+id/privacyButton"
+                style="@style/TextAppearance.MaterialComponents.Headline5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/small_margin"
+                android:background="@color/background_card_view"
+                android:padding="@dimen/small_padding"
+                android:text="Privacy policy"
+                app:drawableEndCompat="@drawable/ic_arrow" />
+
+            <Button
+                android:id="@+id/feedbackButton"
+                style="@style/TextAppearance.MaterialComponents.Headline5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/background_card_view"
+                android:padding="@dimen/small_padding"
+                android:text="Send feedback"
+                app:drawableEndCompat="@drawable/ic_arrow" />
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/background_card_view"
+                android:layout_margin="@dimen/default_margin"/>
+
+            <TextView
+                android:id="@+id/tvFooter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="© Collectick 2021 | All rights reserved "
+                android:layout_marginTop="@dimen/big_margin"
+                android:gravity="center"
+                style="@style/TextAppearance.MaterialComponents.Subtitle1"
+                android:textSize="20sp"/>
+
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

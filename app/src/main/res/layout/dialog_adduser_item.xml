@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TIL_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:padding="@dimen/small_padding"
+        android:hint="@string/hint_text_adduser"
+        app:counterEnabled="true"
+        app:counterMaxLength="12"
+        app:startIconDrawable="@drawable/ic_person"
+        app:endIconMode="clear_text"
+        app:helperText="@string/help_text_name"
+        app:helperTextTextColor="@color/purple_200">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TIET_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="12"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TIL_company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:padding="@dimen/small_padding"
+        android:hint="@string/hint_text_company"
+        app:counterEnabled="true"
+        app:counterMaxLength="12"
+        app:startIconDrawable="@drawable/ic_store"
+        app:endIconMode="clear_text"
+        app:helperText="@string/help_text_name"
+        app:helperTextTextColor="@color/purple_200">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TIET_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="12"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TIL_URL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:padding="@dimen/small_padding"
+        android:hint="@string/hint_text_URL"
+        app:startIconDrawable="@drawable/ic_image"
+        app:endIconMode="clear_text"
+        app:helperText="@string/help_text_name"
+        app:helperTextTextColor="@color/purple_200">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TIET_URL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textUri"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>
